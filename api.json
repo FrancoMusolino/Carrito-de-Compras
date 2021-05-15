@@ -1,0 +1,38 @@
+[
+    {
+        "precio": 25,
+        "id": 1,
+        "title": "Medialuna",
+        "thumbnailUrl": "./img/medialunas.jpg"
+    },
+    {
+        "precio": 50,
+        "id": 2,
+        "title": "Empanada",
+        "thumbnailUrl": "./img/empanadas.jpg"
+    },
+    {
+        "precio": 150,
+        "id": 3,
+        "title": "Agua",
+        "thumbnailUrl": "./img/agua.jpg"
+    },
+    {
+        "precio": 250,
+        "id": 4,
+        "title": "Manzana",
+        "thumbnailUrl": "./img/manzana.jpg"
+    },
+    {
+        "precio": 110,
+        "id": 5,
+        "title": "Naranja",
+        "thumbnailUrl": "./img/naranja.jpg"
+    },
+    {
+        "precio": 270,
+        "id": 6,
+        "title": "Pizza",
+        "thumbnailUrl": "./img/pizza.jpg"
+    }
+]
