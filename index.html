@@ -5,14 +5,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carrito de compras</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
 </head>
 
 <body>
     <div class="container">
-        <h4>Carrito de compras</h4>
-        <table class="table">
+        <h1 class="display-4">Carrito de compras</h1>
+        <hr>
+
+        <h4>Nuestros Productos</h4>
+        <div class="row" id="cards"></div>
+
+        <table class="table mt-5">
             <thead>
                 <tr>
                     <th scope="col">#</th>
@@ -29,8 +35,6 @@
                 </tr>
             </tfoot>
         </table>
-        <h4>Cards</h4>
-        <div class="row" id="cards"></div>
     </div>
 
     <!--Los template no los lee el HTML. No se renderuiza a la hora de cargar la página,
@@ -41,7 +45,7 @@
         <td>10</td>
         <td>
             <button class="btn btn-danger btn-sm" id="vaciar-carrito">
-                vaciar todo
+                Vaciar todo
             </button>
         </td>
         <td class="font-weight-bold">$ <span>5000</span></td>
